@@ -103,7 +103,7 @@ namespace Com.ArmI.TestPun2
         ){
             this.CalledOnLevelWasLoaded(scene.buildIndex);
         }
-        
+
         void CalledOnLevelWasLoaded(int level)
         {
             // check if we are outside the Arena and if it's the case, 
@@ -148,7 +148,7 @@ namespace Com.ArmI.TestPun2
         /// </summary>
         void Update()
         {
-            if(this._is_alive){
+            // if(this._is_alive){
 
                 // trigger Beams active state
                 if (beams != null && IsFiring != beams.activeInHierarchy)
@@ -167,7 +167,7 @@ namespace Com.ArmI.TestPun2
                         this._is_alive = false;
                     }
                 }
-            }
+            // }
         }
 
         /// <summary>

@@ -55,7 +55,7 @@ namespace Com.ArmI.TestPun2
         /// </summary>
         void Awake()
         {   
-            bool debug = false;
+            bool debug = true;
             if(debug)
                 Debug.Log("Launcher: Awake");
             // #Critical
@@ -67,7 +67,7 @@ namespace Com.ArmI.TestPun2
 
         void Start()
         {
-            bool debug = false;
+            bool debug = true;
             if(debug)
                 Debug.Log("Launcher: Start");
             
@@ -82,7 +82,7 @@ namespace Com.ArmI.TestPun2
         /// </summary>
         public void Connect()
         {
-            bool debug = false;
+            bool debug = true;
             if(debug)
                 Debug.Log("Launcher: Connect");
 
